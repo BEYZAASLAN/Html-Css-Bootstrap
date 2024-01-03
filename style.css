@@ -1,0 +1,74 @@
+
+.ornek{
+width: 900px;
+margin:auto;
+}
+.saga-kaydir{
+float:right;
+padding:0 0 10px 10px;
+}
+ 
+.sola-kaydir{
+float:left;
+padding:0 10px 10px 0;
+}
+.yazi{
+
+    padding: 48px 0px;
+    background-color: #F8F9FA;
+}
+
+/* 3 tane resimli yer */
+/* product cards */
+
+@media(max-width: 768px) {
+    .product-card .img-wrap {
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+.product-card .img-wrap {
+    height: 250px;
+    padding: .5rem;
+    display: block;
+    text-align: center;
+}
+
+.product-card img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover; 
+}
+
+.product-card .checked {
+    color: orange;
+}
+
+.product-card .title {
+    text-decoration: none;
+    color: #212529;
+}
+
+.product-card .price {
+    color: orange;
+    font-size: 22px;
+}
+
+.product-card .rating {
+    font-size: 13px;
+}
+
+#grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , yellow);
+    background-repeat: no-repeat;
+  }
+  #features{
+    background-image: url(https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125077800/125077800_0_MC/1234.jpg);
+    background-repeat: no-repeat;
+  }
+  .navbar .navbar-brand {
+      font-weight: 700;
+  }
